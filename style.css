@@ -1,0 +1,17 @@
+/* Product */
+.navbar {
+    background-color: #ffaecf;
+}
+
+.btn-pink {
+    background-color: #ffb6c1;
+    color: white (25, 0, 255);
+    border: none;
+  }
+.btn-pink:hover {
+    background-color:#ffcde1;
+    color: white;
+  }
+.card-title {
+    color: #d96686;
+  }

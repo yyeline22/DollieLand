@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detail Produk - DollieLand</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .btn-pink {
+      background-color: #f8c8dc;
+      color: #fff;
+    }
+    .btn-pink:hover {
+      background-color: #f5a9c4;
+    }
+    .product-card {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 25px;
+      overflow: hidden;
+    }
+    .product-img {
+      max-width: 200px;
+      object-fit: cover;
+      height: 200px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .card-body h5 {
+      color: #d96b9c;
+    }
+    .text-pink {
+      color: #d96b9c;
+    }
+
+.product-card {
+  background-color: white;
+  border-radius: 70px;
+  padding: 80px;
+  margin-bottom: 90px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  max-width: 600%;
+}
+
+.product-image {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.nav-link {
+    color: white !important;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    padding: 6px 12px;
+  }
+
+  .nav-link:hover {
+    background-color: #ffaecf;
+    color: rgb(255, 106, 168) !important;
+  }
+
+  .nav-link.active {
+    background-color: rgb(255, 143, 199);
+    color: white !important;
+  }
+
+  .bg-light-pink {
+  background-color: #ffe6f0;
+}
+
+.text-pink {
+  color: #e75480 !important;
+}
+
+.text-pink:hover {
+  color: #ff91a4 !important;
+}
+  </style>
+</head>
+
+<!-- Buat yg atas -->
+    <body style="background-color:#fffafc">
+      <nav class="navbar navbar-expand-lg" style="background-color: #ffcde1;">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">🐻‍❄️𐙚 DollieLand</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+              <li class="nav-item">
+              <a class="nav-link text-white"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-pink" aria-current="page" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="cart.html">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Produk List -->
+  <div class="container py-5">
+
+    <!-- Bunny -->
+     <section id="bunny">
+    <div class="product-card d-flex">
+      <img src="img/Bunny peach.jpg" alt="Bunny Peach" class="product-img">
+      <div class="p-4">
+        <h5 class="fw-bold">Bunny Peach</h5>
+        <p class="text-muted mb-1">Warna: Peach Pastel | Ukuran: ±28 cm | Bahan: Velboa lembut, dakron padat</p>
+        <p class="text-muted">Deskripsi: Bunny pastel dengan telinga panjang dan warna peach yang manis. Cocok jadi teman tidur anak atau dekorasi kamar.</p>
+        <h6 class="text-pink">Rp88.000</h6>
+        <button class="btn btn-pink mt-2" disabled>+ Add to Cart</button>
+        <p class="mt-2 text-muted fst-italic">(Fitur belum aktif)</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Bear -->
+     <section id="bear">
+    <div class="product-card d-flex">
+      <img src="img/Bear minty.jpg" alt="Bear Minty" class="product-img">
+      <div class="p-4">
+        <h5 class="fw-bold">Bear Minty</h5>
+        <p class="text-muted mb-1">Warna: Hijau Pastel (Mint) | Ukuran: ±30 cm | Bahan: Plush halus, dakron lembut</p>
+        <p class="text-muted">Deskripsi: Boneka beruang minty dengan ekspresi menggemaskan. Memberikan nuansa segar dan menenangkan di setiap pelukan.</p>
+        <h6 class="text-pink">Rp85.000</h6>
+        <button class="btn btn-pink mt-2" disabled>+ Add to Cart</button>
+        <p class="mt-2 text-muted fst-italic">(Fitur belum aktif)</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Alpaca -->
+     <section id="alpaca">
+    <div class="product-card d-flex">
+      <img src="img/Alpaca lavender.jpg" alt="Alpie Lavender" class="product-img">
+      <div class="p-4">
+        <h5 class="fw-bold">Alpie Lavender</h5>
+        <p class="text-muted mb-1">Warna: Ungu Pastel | Ukuran: ±25 cm | Bahan: Lembut & Dakron</p>
+        <p class="text-muted">Boneka alpaca warna ungu pastel yang lembut, lucu, dan cocok jadi teman tidur atau dekorasi kamar.</p>
+        <h6 class="text-pink">Rp89.000</h6>
+        <button class="btn btn-pink mt-2" disabled>+ Tambahkan ke Keranjang</button>
+        <p class="mt-2 text-muted fst-italic">(Fitur belum aktif)</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Chicken -->
+     <section id="chicken">
+    <div class="product-card d-flex">
+      <img src="img/Chicken Yellow.jpg" alt="Chickie Yellow" class="product-img">
+      <div class="p-4">
+        <h5 class="fw-bold">Chickie Yellow</h5>
+        <p class="text-muted mb-1">Warna: Kuning Pastel | Ukuran: ±20 cm | Bahan: Velboa, dakron empuk</p>
+        <p class="text-muted">Deskripsi: Boneka anak ayam berwarna kuning pastel, imut dan ceria. Ideal untuk koleksi atau hadiah spesial.</p>
+        <h6 class="text-pink">Rp78.000</h6>
+        <button class="btn btn-pink mt-2" disabled>+ Add to Cart</button>
+        <p class="mt-2 text-muted fst-italic">(Fitur belum aktif)</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Puppy -->
+     <section id="puppy">
+    <div class="product-card d-flex">
+      <img src="img/Puppy SKY.jpg" alt="Puppy Sky" class="product-img">
+      <div class="p-4">
+        <h5 class="fw-bold">Puppy Sky</h5>
+        <p class="text-muted mb-1">Warna: Biru Pastel | Ukuran: ±26 cm | Bahan: Plush & Dakron lembut</p>
+        <p class="text-muted">Deskripsi: Boneka anak anjing dengan nuansa biru langit yang menenangkan. Siap jadi teman setia setiap hari.</p>
+        <h6 class="text-pink">Rp90.000</h6>
+        <button class="btn btn-pink mt-2" disabled>+ Tambahkan ke Keranjang</button>
+        <p class="mt-2 text-muted fst-italic">(Fitur belum aktif)</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Pig -->
+     <section id="pig">
+    <div class="product-card d-flex">
+      <img src="img/Pig pinky.jpg" alt="Oinky Pinky" class="product-img">
+      <div class="p-4">
+        <h5 class="fw-bold">Oinky Pinky</h5>
+        <p class="text-muted mb-1">Warna: Pink Pastel | Ukuran: ±22 cm | Bahan: Velboa, dakron padat</p>
+        <p class="text-muted">Deskripsi: Boneka babi pink pastel yang menggemaskan. Lucu dan pas untuk teman main atau kado manis.</p>
+        <h6 class="text-pink">Rp80.000</h6>
+        <button class="btn btn-pink mt-2" disabled>+ Tambahkan ke Keranjang</button>
+        <p class="mt-2 text-muted fst-italic">(Fitur belum aktif)</p>
+      </div>
+    </div>
+  </div>
+</body>
+</section>
+
+<footer class="bg-light-pink text-center text-dark py-4 mt-5">
+  <div class="container">
+    <p class="mb-2 fw-bold">🐻‍❄️ DollieLand</p>
+    <p class="small mb-2">
+      📍 Jakarta, Indonesia &nbsp; | &nbsp;
+      📧 <a href="mailto:hello@dollieland.com" class="text-decoration-none text-pink">hello@dollieland.com</a>
+    </p>
+    <div class="mb-3">
+      <a href="index.html" class="text-pink me-3 small text-decoration-none">Home</a>
+      <a href="product.html" class="text-pink me-3 small text-decoration-none">Products</a>
+      <a href="cart.html" class="text-pink small text-decoration-none">Cart</a>
+    </div>
+    <p class="text-muted small">© 2025 DollieLand. Made with <span style="font-size: 1.2rem;">💖</span></p>
+  </div>
+</footer>
+  
+</html>
